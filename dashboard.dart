@@ -62,7 +62,7 @@ final MaterialColor bc1;
     return Card(
     margin: EdgeInsets.all(8.0),
 		child: InkWell(
-			onTap:(){},
+			onTap:(){  print("Presionando el boton ... " + title1); },   //accion del evento Onclick del widget Card
 			splashColor:Colors.green,
 			child: Center(
 			    child:Column(
