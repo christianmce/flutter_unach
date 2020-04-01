@@ -33,8 +33,8 @@ class _MyHomePageState extends State<MyHomePage> {
     
     return Scaffold(
 
-appBar: new AppBar( title: Text("MENU PRINCIPAL UNACH"), backgroundColor: Colors.blue[700],),     //Aqui pueden configurar el color de fondo de la barra de menu
-backgroundColor: Colors.green[100],  //Aqui pueden configurar el color de fondo del cuerpo de contenido
+appBar: new AppBar( title: Text("MENU PRINCIPAL UNACH"), backgroundColor: Colors.blue[700],), //COLOR de fondo de la barra de menu
+backgroundColor: Colors.green[100],  //Configurar el color de fondo del cuerpo de contenido
 body: Container(
   padding: EdgeInsets.all(30.0),
 	  child: GridView.count(
@@ -45,7 +45,7 @@ body: Container(
                 Botones(title1: "Opcion 3", icon1: Icons.local_library, bc1: Colors.blue,),
 
             ],
-		      ), 
+	  ), 
         )  
     );
   }
@@ -66,7 +66,7 @@ final MaterialColor bc1;
 			splashColor:Colors.green,
 			child: Center(
 			    child:Column(
-            mainAxisSize:MainAxisSize.min,
+            			mainAxisSize:MainAxisSize.min,
 				    children: <Widget>[
 				              Icon(icon1, size: 70.0, color: bc1),
 				              Text(title1, style : new TextStyle(fontSize: 17.0))
