@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'productos.dart';
 
+//Código usando Flutter y Dart para implementar un DataTable
+
 class Ventana1 extends StatefulWidget {
 
 Ventana1() : super();
